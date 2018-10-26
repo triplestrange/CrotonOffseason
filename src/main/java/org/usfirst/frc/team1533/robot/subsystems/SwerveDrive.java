@@ -3,14 +3,12 @@ package org.usfirst.frc.team1533.robot.subsystems;
 import org.usfirst.frc.team1533.robot.Constants;
 import org.usfirst.frc.team1533.robot.TrapezoidProfile;
 import org.usfirst.frc.team1533.robot.ProfileFollower;
-import org.usfirst.frc.team1533.robot.subsystems.Elevator;
 import org.usfirst.frc.team1533.util.*;
 
 import com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX;
 import com.ctre.phoenix.motorcontrol.can.WPI_VictorSPX;
 
 import edu.wpi.first.wpilibj.Joystick;
-import edu.wpi.first.wpilibj.PIDController;
 import edu.wpi.first.wpilibj.PIDOutput;
 import edu.wpi.first.wpilibj.PIDSource;
 import edu.wpi.first.wpilibj.PIDSourceType;
