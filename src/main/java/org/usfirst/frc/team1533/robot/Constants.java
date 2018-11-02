@@ -1,12 +1,9 @@
 package org.usfirst.frc.team1533.robot;
 
-import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
-
 public class Constants {
 	//Acceleration and vCruise for the Swerve Motion Profiles
 	public static double acc = 50;
 	public static double vCruise = 60;
-	public static double AutonDelay = SmartDashboard.getNumber("AutonDelay", 0);
 	public static class SwerveDrive {
 		// These numbers control the Swerve PID
 		public static final double SWERVE_STEER_P = 2;
@@ -88,25 +85,5 @@ public class Constants {
 		public final static int RIGHT_BUMPER2 = 6;
 		public final static int LEFT_TRIGGER2 = 7;
 		public final static int RIGHT_TRIGGER2 = 8;
-	}
-
-	public static class Elevator {
-		public static final int cimShifter1 = 8;
-		public static final int cimShifter2 = 9;
-		public static final int cimShifter3 = 10;
-		
-		public static final int MagEncoderPort1 = 0;
-		public static final int MagEncoderPort2 = 1;
-	}
-	public static class CubeMech {
-		
-	}
-	public static class Pneumatics {
-		public static final int solenoid1Port1 = 0;
-		public static final int solenoid1Port2 = 1;
-		public static final int solenoid2Port1 = 2;
-		public static final int solenoid2Port2 = 3;
-		public static final int solenoid3Port1 = 6;
-		public static final int solenoid3Port2 = 7;
 	}
 }
