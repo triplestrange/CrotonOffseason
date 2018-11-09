@@ -15,6 +15,7 @@ public class Robot extends IterativeRobot {
 	public static SwerveDrive swerve;
 	public static PathTracking path;
 	public static PathFollower follower;
+	public static CubeMechanism cubemech;
 	// Defines autonomous selection tools
 	Command AutoCommand;
 	SendableChooser<Command> AutoChooser;
@@ -27,6 +28,7 @@ public class Robot extends IterativeRobot {
 		swerve = new SwerveDrive(joy1, gyro);
 		path = new PathTracking(swerve);
 		follower = new PathFollower();
+		
 		path.reset();
 
 		//Timer to determine Rio boot time
